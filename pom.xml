@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>tech.quilldev</groupId>
-    <artifactId>QuillFRC</artifactId>
+    <artifactId>quillfrc</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
     <properties>
