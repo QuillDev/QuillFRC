@@ -16,10 +16,11 @@
     <distributionManagement>
         <repository>
             <id>github</id>
-            <name>Github Packages</name>
-            <url>https://maven.pkg.github.com/quilldev/QuillFRC</url>
+            <name>GitHub QuillDev Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/QuillDev/QuillFRC</url>
         </repository>
     </distributionManagement>
+
     <repositories>
         <repository>
             <id>com.revrobotics.frc</id>
