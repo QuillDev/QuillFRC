@@ -1,7 +1,7 @@
-package tech.quilldev.SKSim;
+package tech.quilldev.QuillFRC.SKSim;
 
 
-import tech.quilldev.SKSwerve.Encoders.SKEncoder;
+import tech.quilldev.QuillFRC.SKSwerve.Encoders.SKEncoder;
 
 public class SKSimEncoder extends SKEncoder {
 

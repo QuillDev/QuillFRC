@@ -1,6 +1,7 @@
-package tech.quilldev.SKSwerve.Motors;
+package tech.quilldev.QuillFRC.SKSwerve.Motors;
 
-import tech.quilldev.SKSwerve.Encoders.SKEncoder;
+
+import tech.quilldev.QuillFRC.SKSwerve.Encoders.SKEncoder;
 
 public abstract class SKMotorController {
     public abstract void set(double speed);

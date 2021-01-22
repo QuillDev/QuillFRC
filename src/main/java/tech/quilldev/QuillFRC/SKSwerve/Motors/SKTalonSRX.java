@@ -1,9 +1,9 @@
-package tech.quilldev.SKSwerve.Motors;
+package tech.quilldev.QuillFRC.SKSwerve.Motors;
 
 import com.ctre.phoenix.motorcontrol.TalonSRXControlMode;
 import com.ctre.phoenix.motorcontrol.can.TalonSRX;
-import tech.quilldev.SKSwerve.Encoders.SKEncoder;
-import tech.quilldev.SKSwerve.Encoders.SKMagEncoder;
+import tech.quilldev.QuillFRC.SKSwerve.Encoders.SKEncoder;
+import tech.quilldev.QuillFRC.SKSwerve.Encoders.SKMagEncoder;
 
 public class SKTalonSRX extends SKMotorController {
 

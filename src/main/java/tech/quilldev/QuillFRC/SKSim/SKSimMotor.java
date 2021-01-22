@@ -1,8 +1,7 @@
-package tech.quilldev.SKSim;
+package tech.quilldev.QuillFRC.SKSim;
 
-
-import tech.quilldev.SKSwerve.Encoders.SKEncoder;
-import tech.quilldev.SKSwerve.Motors.SKMotorController;
+import tech.quilldev.QuillFRC.SKSwerve.Encoders.SKEncoder;
+import tech.quilldev.QuillFRC.SKSwerve.Motors.SKMotorController;
 
 public class SKSimMotor extends SKMotorController {
 

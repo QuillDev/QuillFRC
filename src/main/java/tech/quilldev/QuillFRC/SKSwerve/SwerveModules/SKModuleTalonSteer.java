@@ -1,8 +1,9 @@
-package tech.quilldev.SKSwerve.SwerveModules;
+package tech.quilldev.QuillFRC.SKSwerve.SwerveModules;
 
-import tech.quilldev.SKSwerve.Motors.SKTalonSRX;
 
-public class SKModuleTalonSteer extends SwerveModule{
+import tech.quilldev.QuillFRC.SKSwerve.Motors.SKTalonSRX;
+
+public class SKModuleTalonSteer extends SwerveModule {
 
     /**
      * Create a swerve module that's using a talon for steering

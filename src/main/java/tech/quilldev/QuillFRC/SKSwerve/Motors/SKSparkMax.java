@@ -1,9 +1,9 @@
-package tech.quilldev.SKSwerve.Motors;
+package tech.quilldev.QuillFRC.SKSwerve.Motors;
 
 import com.revrobotics.CANSparkMax;
 import com.revrobotics.CANSparkMaxLowLevel;
-import tech.quilldev.SKSwerve.Encoders.SKEncoder;
-import tech.quilldev.SKSwerve.Encoders.SKSparkMaxEncoder;
+import tech.quilldev.QuillFRC.SKSwerve.Encoders.SKEncoder;
+import tech.quilldev.QuillFRC.SKSwerve.Encoders.SKSparkMaxEncoder;
 
 public class SKSparkMax extends SKMotorController{
 

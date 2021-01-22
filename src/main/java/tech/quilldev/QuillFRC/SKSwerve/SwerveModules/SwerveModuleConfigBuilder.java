@@ -1,8 +1,8 @@
-package tech.quilldev.SKSwerve.SwerveModules;
+package tech.quilldev.QuillFRC.SKSwerve.SwerveModules;
 
 
-import tech.quilldev.SKSwerve.Encoders.SKEncoder;
-import tech.quilldev.SKSwerve.Motors.SKMotorController;
+import tech.quilldev.QuillFRC.SKSwerve.Encoders.SKEncoder;
+import tech.quilldev.QuillFRC.SKSwerve.Motors.SKMotorController;
 
 public class SwerveModuleConfigBuilder {
 

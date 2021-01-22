@@ -1,6 +1,4 @@
-package tech.quilldev.SKSwerve.SwerveModules;
-
-import tech.quilldev.SKSwerve.SwerveModules.SwerveModule;
+package tech.quilldev.QuillFRC.SKSwerve.SwerveModules;
 
 public class SKSimModule extends SwerveModule {
 

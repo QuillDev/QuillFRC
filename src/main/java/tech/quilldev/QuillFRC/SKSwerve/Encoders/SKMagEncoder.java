@@ -1,4 +1,4 @@
-package tech.quilldev.SKSwerve.Encoders;
+package tech.quilldev.QuillFRC.SKSwerve.Encoders;
 
 import com.ctre.phoenix.motorcontrol.SensorCollection;
 import frc.robot.SKSwerve.Utilities.SKMath;
