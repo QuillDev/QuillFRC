@@ -6,7 +6,7 @@
 
     <groupId>tech.quilldev</groupId>
     <artifactId>quillfrc</artifactId>
-    <version>0.0.2-SNAPSHOT</version>
+    <version>0.0.3-SNAPSHOT</version>
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
@@ -33,9 +33,9 @@
             <url>http://devsite.ctr-electronics.com/maven/release/</url>
         </repository>
         <repository>
-            <id>edu.wpi.first.wpilibj</id>
+            <id>edu.wpi.first.wpilibj.wpilibj-java</id>
             <name>WPILib</name>
-            <url>https://frcmaven.wpi.edu/artifactory/release</url>
+            <url>https://frcmaven.wpi.edu/artifactory/release/</url>
         </repository>
     </repositories>
 
@@ -50,9 +50,16 @@
             <artifactId>api-java</artifactId>
             <version>5.19.1</version>
         </dependency>
+
+        <!--Get WPILib Dependencies -->
         <dependency>
             <groupId>edu.wpi.first.wpilibj</groupId>
             <artifactId>wpilibj-java</artifactId>
+            <version>2021.2.1</version>
+        </dependency>
+        <dependency>
+            <groupId>edu.wpi.first.wpimath</groupId>
+            <artifactId>wpimath-java</artifactId>
             <version>2021.2.1</version>
         </dependency>
     </dependencies>

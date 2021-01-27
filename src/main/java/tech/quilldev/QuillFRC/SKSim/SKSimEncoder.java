@@ -7,6 +7,7 @@ public class SKSimEncoder extends SKEncoder {
 
     public double position = 0;
     public double encoderUnits = 4096;
+    public double velocity = 0;
 
     /**
      * Create a new simulated encoder
@@ -33,5 +34,17 @@ public class SKSimEncoder extends SKEncoder {
     @Override
     public double getPositionEncoderUnits() {
         return position;
+    }
+
+    /**
+     * Set the position of the encoder
+     * @param angle of the encoder
+     */
+    public void setAngle(double angle) {
+        this.position = angle / (2.0 * Math.PI) * encoderUnits;
+    }
+
+    public void setVelocity(double velocity){
+        this.velocity = velocity;
     }
 }
